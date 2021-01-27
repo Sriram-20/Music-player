@@ -38,6 +38,7 @@ songstatus.set("choosing")
 playlist = Listbox(root, selectmode = SINGLE, bg = "black", fg ="white", font= ('CinzelRegular', 15),width = 40)
 playlist.grid(columnspan = 5)
 
+#paste the link where you stored your songs
 os.chdir(r'D:\movies\Songs\English Songs')
 songs = os.listdir()
 for s in songs:
